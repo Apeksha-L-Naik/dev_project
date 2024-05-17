@@ -73,3 +73,22 @@
     width: 200px;
     padding-bottom: 20px;
 }
+  
+  .blur {
+    filter: blur(5px);
+    transition: filter 0.3s ease;
+  }
+  
+  .question-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.1);
+    z-index: 2000;
+  }
+  
