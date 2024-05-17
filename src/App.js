@@ -1,25 +1,14 @@
-import logo from './logo.svg';
+import Quesion from './Components/Quesion';
 import './App.css';
+import Qlist from './Components/Qlist';
+import './Styles/Qlist.css'
+import './Styles/Question.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Qlist/>
+    </>
   );
 }
-
 export default App;

@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main-body{
+    padding-top: 64px;
+    padding-left: 64px;
+    
+}
+.qlist{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+   position: absolute;
+}
+.latest-list .latest-qlist{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.latest-list .latest-qlist .latest h2{
+    font-size: 30px;
+    font-weight: 400;
+    color: #522D6D;
+}
+.latest-list .latest-qlist .search{
+    margin-left: 46.08rem;
+    padding-right: 20px;
+}
+.latest-list .latest-qlist .search input{
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    padding-left: 15px;
+}
+.latest-list .latest-qlist .search input:hover{
+    color: black;
+    border: none;
+}
+.qlist-button{
+    display: flex;
+    text-align: center;
+}
+.qlist-button button{
+    width: 80px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #522D6D;
+    color: white;
+    border: none;
+}
+.qlist-button button:hover{
+    cursor: pointer;
+}
+.top-qlist{
+    padding-right: 80px;
+    border-left: 1px solid black;
+    height: 665px;
+   
+}
+.top-qlist .topqlist-title{
+    padding-left: 20px;
+}
+.top-qlist .topqlist-title h3{
+    font-size: xx-large;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    width: 200px;
+    padding-bottom: 20px;
+}
